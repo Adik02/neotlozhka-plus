@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply text-slate-800 bg-white; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.btn-primary { @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-semibold bg-brand text-white shadow hover:bg-brand-dark transition; }
+.card { @apply rounded-2xl shadow p-5 border border-slate-100 bg-white; }
+
+h1,h2,h3 { @apply tracking-tight text-slate-900; }
+p { @apply text-slate-600; }
+.section { @apply py-10 md:py-14; }
+.section-title { @apply text-2xl md:text-3xl font-bold mb-4; }
